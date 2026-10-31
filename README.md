@@ -12,12 +12,13 @@ Editores de smartdown para escribir código md
 # Flujo de trabajo correcto en Git
 
 1. **`git fetch`**: Consulta y trae la información sobre los últimos cambios o ramas que existen en GitHub sin alterarte el código local todavía.
-2. **`git branch`**: Te muestra la lista de ramas locales y te indica con un asterisco (`*`) en cuál estás ubicado actualmente.
-3. **`git switch <nombre-de-la-rama>`**: Te cambia a la rama en la que vas a trabajar (por ejemplo: `git switch main`).
-4. **`git pull <nombre-de-la-nube> <nombre-de-la-rama>`**: (Ej: `git pull origin main`). Descarga e integra los últimos cambios remotos a tu equipo para tener el proyecto al día antes de empezar a modificarlo.
-5. **`git status`**: Te permite verificar en qué rama estás parado y revisar qué archivos se van modificando a medida que trabajas.
-6. **`git add <nombre-del-archivo>`**: Selecciona y prepara los archivos modificados que deseas incluir para guardar.
-7. **`git commit -m "mensaje"`**: Agrupa los archivos preparados y les guarda una "foto" (confirmación) con un mensaje claro descriptivo.
-8. **`git push <nombre-de-la-nube> <nombre-de-la-rama>`**: (Ej: `git push origin main`). Sube tus commits locales al repositorio remoto en GitHub.
+2. **`git branch`**: Te muestra la lista de ramas locales.
+3. **`git checkout -b <nombre-de-la-nueva-rama>`**: Crea una nueva rama y te pasa a ella automáticamente.
+4. **`git switch <nombre-de-la-rama>`**: Te cambia a una rama existente (ejemplo: `git switch main`).
+5. **`git pull <nombre-de-la-nube> <nombre-de-la-rama>`**: (Ej: `git pull origin main`). Descarga e integra los últimos cambios remotos.
+6. **`git status`**: Revisa qué archivos se han modificado.
+7. **`git add <nombre-del-archivo>`**: Prepara los archivos para guardar.
+8. **`git commit -m "mensaje"`**: Agrupa y guarda la confirmación con un mensaje.
+9. **`git push <nombre-de-la-nube> <nombre-de-la-rama>`**: Sube tus cambios a GitHub.
 
 (`Nota: Si quieres crear una nueva rama desde la consola, también se usa git branch <nombre-de-la-nueva-rama>`).
