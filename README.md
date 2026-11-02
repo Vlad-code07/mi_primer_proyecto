@@ -43,4 +43,5 @@ Editores de smartdown para escribir código md
 10. **`git push <nombre-de-la-nube>(origin) <nombre-de-la-rama>`**: Sube tus cambios a GitHub.
 
 (**Nota:** Si quieres saber qué nombre o "apodo" tiene tu repositorio en la nube, debes usar el comando **`git remote -v`** en tu terminal).\
+(**Nota:** **`git merge <nombre-rama>`** fusiona y une los cambios de otra rama dentro de la rama en la que estás parado actualmente).\
 (**Nota:** Si quieres crear una nueva rama desde la consola, también se usa **`git branch <nombre-de-la-nueva-rama>`**).
