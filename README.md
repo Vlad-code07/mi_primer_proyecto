@@ -40,6 +40,7 @@ Editores de smartdown para escribir código md
 7. **`git add <nombre-del-archivo>`**: Prepara los archivos para guardar.\
    **`git add .`**: (con un punto al final). Ese punto le dice a Git: "prepara absolutamente todo lo que haya cambiado en esta carpeta".
 9. **`git commit -m "mensaje"`**: Agrupa y guarda la confirmación con un mensaje.
-10. **`git push <nombre-de-la-nube> <nombre-de-la-rama>`**: Sube tus cambios a GitHub.
+10. **`git push <nombre-de-la-nube>(origin) <nombre-de-la-rama>`**: Sube tus cambios a GitHub.
 
-(`Nota: Si quieres crear una nueva rama desde la consola, también se usa git branch <nombre-de-la-nueva-rama>`).
+(**Nota:** Si quieres saber qué nombre o "apodo" tiene tu repositorio en la nube, debes usar el comando **`git remote -v`** en tu terminal).\
+(**Nota:** Si quieres crear una nueva rama desde la consola, también se usa **`git branch <nombre-de-la-nueva-rama>`**).
