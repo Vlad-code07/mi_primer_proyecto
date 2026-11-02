@@ -1,5 +1,5 @@
 # mi_primer_proyecto
-Este repositorio se crea para empezar a explorar github\
+Este repositorio se crea para empezar a explorar Git y GitHub\
 Lenguaje martdown: para escribir en el md\
 Editores de smartdown para escribir código md
 
